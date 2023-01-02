@@ -1,0 +1,23 @@
+Firefox for iOS (Xcode Simulator)
+
+This will help you to have a useable copy of Firefox for iOS running on a macOS computer.  It will provide a version close to the main Release version of Firefox for iOS.  Please note that this method does involve some large downloads and may take some to set up initially.  Running an app in the Xcode Simulator can be quite taxing on a computer, so it is worthwhile closing any other apps you have open.
+
+Install the version of Xcode required to build Firefox for iOS from https://xcodereleases.com/. The version number required can be found at at https://github.com/mozilla-mobile/firefox-ios.  This will be a very large download and may take some time.
+
+Open the Terminal.  Type each command and press Enter.  The command will then run and return to the terminal cursor for you to run the next line.
+
+brew update
+brew install node
+pip3 install virtualenv
+cd
+git clone https://github.com/mozilla-mobile/firefox-ios.git
+cd firefox-ios
+
+In the following line, replace the xx.x with the lastest version number (example:  git checkout v.108.0)
+
+git checkout vXX.X
+sh ./bootstrap.sh
+
+Open Xcode and navigate to /Users/(user name)/firefox-ios and select the Client.xcodeproj file
+
+Along the top of Xcode, change Account to Fennec and select a current iOS device. Select the Play icon to start the build process. Firefox for iOS will be built and will display in the Xcode simulator.
