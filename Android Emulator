@@ -1,4 +1,4 @@
-Firefox for Android (Android Virtual Device (AVD))
+Firefox for Android (Android Studio Emulator)
 
 This will help you to have a useable copy of Firefox for Android running on a desktop or laptop computer running Linux, macOS or Windows.  Please note that this method does involve some large downloads and may take some to set up initially.  Running an app in an Android Virtual Device can be quite taxing on a computer, so it is worthwhile closing any other apps you have open.
 
