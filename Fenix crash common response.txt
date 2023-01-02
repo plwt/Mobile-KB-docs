@@ -1,0 +1,11 @@
+Hi
+
+I am sorry to hear that Firefox for Android is crashing.  I hope that we can help resolve this for you.  Before following the steps below, please make sure that you have updated both your iOS device and Firefox for iOS to the latest versions available.
+
+As a first step, close down many of the tabs that you have open to as few as possible.  Does this help reduce the incidence of a crash?
+
+If this does not resolve the issue, open the Android Settings app, select Applications then find Firefox in the list.  In the section headed "Storage", selct the option to clear the cache (do not clear data!).  Does this help?
+
+Failing that, we will need to look into this in more detail with some logs from inside your copy of Firefox for Android.  Type about:crashes in the address bar which will display information about recent crashes.  If you select the most recent "Socorro" link, a crash report will open in a new tab.  If you could copy and past the address of the page that opens, we will be able to look into this further for you.
+
+I hope that this helps.
