@@ -3,3 +3,15 @@ Firefox for Android (Android Studio Emulator)
 This will help you to have a useable copy of Firefox for Android running on a desktop or laptop computer running Linux, macOS or Windows.  Please note that this method does involve some large downloads and may take some to set up initially.  Running an app in an Android Virtual Device can be quite taxing on a computer, so it is worthwhile closing any other apps you have open.
 
 Install the latest version of Android Studio from either your operating systems app store or from https://developer.android.com/studio.  This will be a very large download and may take some time.
+
+From the Android Studio "welcome" screen, select Virtual Device Manager and then Create virtual device
+
+Select the type and size of device
+
+Select the Android version you wish to use.  This will require you to download the require Android SDK preview.
+
+Once an Android version has been selected, some final options can be chosen.  You may wish to disable the device frame at this stage.
+
+Selecting Finish will take you back to the Device Manager, where you can select the Play icon to run the virtual device or use the edit or three dot icon to make changes to it.
+
+When you select Play, the device will open and "turn on" as if it was a real Android device running a stock version of Android.  You can then download an .apk of Firefox for Android from https://archive.mozilla.org/pub/fenix/releases/ and then drag the file onto the Virtual Device to install it.
