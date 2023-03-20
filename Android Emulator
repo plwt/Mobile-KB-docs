@@ -8,7 +8,7 @@ From the Android Studio "welcome" screen, select Virtual Device Manager and then
 
 Select the type and size of device
 
-Select the Android version you wish to use.  This will require you to download the require Android SDK preview.
+Select the Android version you wish to use.  This will require you to download the required Android SDK preview.
 
 Once an Android version has been selected, some final options can be chosen.  You may wish to disable the device frame at this stage.
 
